@@ -1,0 +1,21 @@
+{
+  "name": "boda-dictionary",
+  "version": "1.0.0",
+  "description": "Style dictionary for AG wedding",
+  "files": [
+    "build",
+    "properties",
+    "assets"
+  ],
+  "scripts": {
+    "build": "style-dictionary build",
+    "clean": "rm -rf build",
+    "watch": "yarn build && chokidar  \"properties/**/*.json\" -c \"yarn build\""
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "chokidar-cli": "^1.2.0",
+    "style-dictionary": "2.10.1"
+  }
+}

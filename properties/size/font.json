@@ -1,0 +1,26 @@
+{
+  "font": {
+    "size": {
+      "small": {
+        "value": "18px",
+        "comment": "the small size of the font"
+      },
+      "normal": {
+        "value": "20px",
+        "comment": "the normal size of the font"
+      },
+      "medium": {
+        "value": "25px",
+        "comment": "the medium size of the font"
+      },
+      "large": {
+        "value": "30px",
+        "comment": "the large size of the font"
+      },
+      "base": {
+        "value": "{font.size.normal.value}",
+        "comment": "the base size of the font"
+      }
+    }
+  }
+}

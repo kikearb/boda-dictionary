@@ -1,0 +1,25 @@
+{
+  "space": {
+    "s": {
+      "value": "10px"
+    },
+    "m": {
+      "value": "20px"
+    },
+    "l": {
+      "value": "32px"
+    },
+    "xl": {
+      "value": "36px"
+    },
+    "xxl": {
+      "value": "60px"
+    },
+    "xxxl": {
+      "value": "120px"
+    },
+    "hero": {
+      "value": "150px"
+    }
+  }
+}
